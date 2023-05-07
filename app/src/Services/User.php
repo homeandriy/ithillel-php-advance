@@ -96,15 +96,15 @@ class User
      */
     public function getAll(): string
     {
-        $userData = "User data : \n";
+        $userData = "User data : <br>";
         if ( ! empty($this->name)) {  // Maybe display "Not set name"
-            $userData .= "Name : " . $this->name . "\n";
+            $userData .= "Name : " . $this->name . "<br>";
         }
         if ( ! empty($this->age)) { // Maybe display "Not set age"
-            $userData .= "Age : " . $this->age . "\n";
+            $userData .= "Age : " . $this->age . "<br>";
         }
         if ( ! empty($this->email)) { // Maybe display "Not set email"
-            $userData .= "Email : " . $this->email . "\n";
+            $userData .= "Email : " . $this->email . "<br>";
         }
 
         return $userData;
