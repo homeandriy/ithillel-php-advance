@@ -1,21 +1,20 @@
 <?php
 
-use Homeandriy\Ithillel\Common\DB;
-use Homeandriy\Ithillel\Utils\Faker;
+//require 'vendor/autoload.php';
+use Homeandriy\Ithillel\Common\Transport;
+use Homeandriy\Ithillel\Services\SenderService;
+use Homeandriy\Ithillel\Utils\ClassLoader;
 
-require 'vendor/autoload.php';
 try {
-    $connect = new DB('db', 'ithillel_db', 'pguser', 'supersecret'); // TODO move to env and clean constructor
+    include_once 'src/Utils/ClassLoader.php';
+    new ClassLoader(__DIR__);
 
-    // Fill table faker data
-    //Faker::fillProductTable($connect, 100);
-
-    //Trigger Error
-    //throw new DomainException('Some other Error');
-
-    $connect->query('SELECT * FROM "Products"', []);
-
-    dd($connect->getResult());
+    $senderService = new SenderService();
+    var_dump(
+        $senderService(new Transport([]))
+    );
 } catch (Exception $exception) {
-    dd($exception->getMessage(), $exception->getTraceAsString());
+    echo '<pre>';
+    echo $exception->getMessage();
+    echo '</pre>';
 }
