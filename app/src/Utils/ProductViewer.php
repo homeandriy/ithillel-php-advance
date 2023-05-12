@@ -46,3 +46,4 @@ class ProductViewer // maybe implements interface
 
         return ob_get_clean();
     }
+}
