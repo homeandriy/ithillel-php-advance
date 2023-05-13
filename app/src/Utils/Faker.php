@@ -3,7 +3,7 @@
 namespace Homeandriy\Ithillel\Utils;
 
 use Faker\Factory;
-use Homeandriy\Ithillel\Common\DB;
+use Homeandriy\Ithillel\Service\DB;
 
 class Faker
 {

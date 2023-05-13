@@ -1,6 +1,6 @@
 <?php
 
-namespace Homeandriy\Ithillel\Common;
+namespace Homeandriy\Ithillel\Service;
 
 use PDO;
 use PDOException;
