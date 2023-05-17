@@ -3,6 +3,7 @@
 namespace Homeandriy\Ithillel\Service\Database;
 
 use Homeandriy\Ithillel\Common\DB;
+use Homeandriy\Ithillel\Utils\Faker;
 use SplObjectStorage;
 
 class PgSQL implements Database
@@ -19,6 +20,12 @@ class PgSQL implements Database
         $this->connect->query('SELECT * FROM "Products"', []);
 
         $data = $this->connect->getResult();
+        // Fil table if empty
+        // if (empty($data)) {
+        //      $this->fillData();
+        //      $data = $this->connect->getResult();
+        // }
+
         $storage = new SplObjectStorage();
         // Transform data
         foreach ($data as $object) {
@@ -26,5 +33,10 @@ class PgSQL implements Database
         }
         unset($data); // clear garbage
         return $storage;
+    }
+
+    private function fillData(): void
+    {
+        Faker::fillProductTable($this->connect, 30);
     }
 }
