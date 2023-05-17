@@ -1,21 +1,20 @@
 <?php
 
-use Homeandriy\Ithillel\Common\DB;
-use Homeandriy\Ithillel\Utils\Faker;
+use Homeandriy\Ithillel\Controller\Controller;
+use Homeandriy\Ithillel\Service\Database\MySQL;
+use Homeandriy\Ithillel\Service\Database\PgSQL;
 
 require 'vendor/autoload.php';
+
 try {
-    $connect = new DB('db', 'ithillel_db', 'pguser', 'supersecret'); // TODO move to env and clean constructor
+    $controller = new Controller(new MySQL());
+    echo 'MySQL Data: <br>';
+    d($controller->getData());
 
-    // Fill table faker data
-    //Faker::fillProductTable($connect, 100);
+    $controllerPg = new Controller(new PgSQL());
 
-    //Trigger Error
-    //throw new DomainException('Some other Error');
-
-    $connect->query('SELECT * FROM "Products"', []);
-
-    dd($connect->getResult());
+    echo 'PostgreSQL Data: <br>';
+    d($controllerPg->getData());
 } catch (Exception $exception) {
-    dd($exception->getMessage(), $exception->getTraceAsString());
+    echo $exception->getMessage() . '<br>' . $exception->getTraceAsString();
 }
