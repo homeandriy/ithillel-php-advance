@@ -1,6 +1,6 @@
 <?php
 
-namespace Homeandriy\Ithillel\Factory\Classes\Abstract;
+namespace Homeandriy\Ithillel\Factory\Classes\Creators;
 
 
 use Homeandriy\Ithillel\Factory\Interfaces\Car;

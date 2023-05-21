@@ -1,9 +1,9 @@
 <?php
 
-use Homeandriy\Ithillel\Factory\Classes\Abstract\TaxiFactory;
 use Homeandriy\Ithillel\Factory\Classes\Creators\EconomyCreator;
 use Homeandriy\Ithillel\Factory\Classes\Creators\LuxCreator;
 use Homeandriy\Ithillel\Factory\Classes\Creators\StandardCreator;
+use Homeandriy\Ithillel\Factory\Classes\Creators\TaxiFactory;
 use Homeandriy\Ithillel\Factory\Classes\Transport\Economy;
 use Homeandriy\Ithillel\Factory\Classes\Transport\Lux;
 use Homeandriy\Ithillel\Factory\Classes\Transport\Standard;
