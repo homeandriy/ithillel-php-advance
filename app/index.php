@@ -1,21 +1,13 @@
 <?php
 
-use Homeandriy\Ithillel\Common\DB;
-use Homeandriy\Ithillel\Utils\Faker;
-
+use Homeandriy\Ithillel\Common\ContractBuilder;
 require 'vendor/autoload.php';
-try {
-    $connect = new DB('db', 'ithillel_db', 'pguser', 'supersecret'); // TODO move to env and clean constructor
 
-    // Fill table faker data
-    //Faker::fillProductTable($connect, 100);
 
-    //Trigger Error
-    //throw new DomainException('Some other Error');
-
-    $connect->query('SELECT * FROM "Products"', []);
-
-    dd($connect->getResult());
-} catch (Exception $exception) {
-    dd($exception->getMessage(), $exception->getTraceAsString());
-}
+$contractBuilderInstance = new ContractBuilder();
+$contractBuilderInstance->setEmail('question@examle.com')
+    ->setAddress('Жашків')
+    ->setName('Andrii')
+    ->setSurname('Lesson')
+    ->setPhone('+380 66 66 53 490')
+    ->build();
