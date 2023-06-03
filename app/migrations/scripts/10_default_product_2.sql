@@ -1,0 +1,16 @@
+INSERT INTO products(name,
+                     description,
+                     price,
+                     price_sale,
+                     slug,
+                     sku,
+                     image,
+                     category_id)
+VALUES ("Lenovo Her-pad all in one",
+        "Lenovo Her-pad all in one - це новітьній ноутбук і ніяке надкушене яблуко з ним не зрівняється",
+        25000.00,
+        20000.00,
+        "lenovo-her-pad-all-in-one",
+        "l-h-p-aio-250G",
+        "lenovo-her-pad-all-in-one.jpeg",
+        2);

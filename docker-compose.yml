@@ -20,19 +20,20 @@ services:
       - "8085:80"
     networks:
       php-app:
-  db:
+  database:
     image: mysql:8.0.3
     restart: always
-    environment:
-      MYSQL_ROOT_PASSWORD: secret
     ports:
       - "3306:3306"
+    environment:
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_ROOT_HOST: '%'
     command: --init-file /data/application/init.sql
+    networks:
+      php-app:
     volumes:
       - "./db_volume:/var/lib/mysql"
       - "./docker/mysql/init.sql:/data/application/init.sql"
-    networks:
-      - php-app
   phpmyadmin:
     image: phpmyadmin:5.2.1-apache
     restart: always

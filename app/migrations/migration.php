@@ -21,35 +21,83 @@ class Migration
         try {
             $this->db->beginTransaction();
 
-//            $this->checkMigrationTable();
-            ;
-            // run all migration
-            // TODO розбити на блоки
-            $this->db->query($this->getMigrations());
-            $this->db->commit();
-        } catch (PDOException $exception) {
-            $this->db->rollBack();
-            d($exception->getMessage(), $exception->getTrace());
-        }
-    }
+            $this->createMigrationTable();
+            $this->runAllMigrations();
 
-    public function getMigrations(): string
-    {
-//        dd(glob(self::SCRIPTS_DIR . '*.sql'));
-        $sqlCommands = '';
-        foreach (glob(self::SCRIPTS_DIR . '*.sql') as $file) {
-            if(false !== stripos($file, self::MIGRATIONS_TABLE)) {
-                continue;
+            if ($this->db->inTransaction()) {
+                $this->db->commit();
             }
-            $sqlCommands .= file_get_contents($file);
+        } catch (PDOException $exception) {
+            d($exception->getMessage(), $exception->getTrace());
+            if ($this->db->inTransaction()) {
+                $this->db->rollBack();
+            }
         }
-        return $sqlCommands;
     }
 
-    public function checkMigrationTable()
+    protected function createMigrationTable()
     {
-        $query = file_get_contents(self::SCRIPTS_DIR . self::MIGRATIONS_TABLE . '.sql');
-        $this->db->query($query);
+        d('----- Prepare migration table query -----');
+        $sql = file_get_contents(static::SCRIPTS_DIR . static::MIGRATIONS_TABLE . '.sql');
+        $query = $this->db->prepare($sql);
+
+        $result = match ($query->execute()) {
+            true => '- Migration table was created (or already exists)',
+            false => '- Failed'
+        };
+
+        d($result);
+        d('----- Finished migration table query -----');
+    }
+
+    protected function runAllMigrations()
+    {
+        d('----- Fetching migrations -----');
+
+        $migrations = scandir(static::SCRIPTS_DIR);
+        $migrations = array_values(array_diff(
+            $migrations,
+            ['.', '..', static::MIGRATIONS_TABLE . '.sql']
+        ));
+        natsort($migrations);
+        foreach ($migrations as $migration) {
+            $table = preg_replace('/[\d]+_/i', '', $migration);
+
+            if (!$this->checkIfMigrationWasRun($migration)) {
+                d("- Run [{$table}] ...");
+                $sql = file_get_contents(static::SCRIPTS_DIR . $migration);
+                $query = $this->db->prepare($sql);
+
+                if ($query->execute()) {
+                    $this->logMigration($migration);
+                    d("- [{$table}] - DONE!");
+                }
+            } else {
+                d("- [{$table}] - SKIPPED!");
+            }
+        }
+        d('----- Fetching migrations - DONE! -----');
+    }
+
+    /**
+     * Write migration name to migrations table.
+     * @param string $migration
+     * @return void
+     */
+    protected function logMigration(string $migration): void
+    {
+        $query = $this->db->prepare("INSERT INTO migrations (name) VALUES (:name)");
+        $query->bindParam('name', $migration);
+        $query->execute();
+    }
+
+    protected function checkIfMigrationWasRun(string $migration): bool
+    {
+        $query = $this->db->prepare("SELECT * FROM migrations WHERE name = :name");
+        $query->bindParam('name', $migration);
+        $query->execute();
+
+        return (bool)$query->fetch();
     }
 }
 
