@@ -14,4 +14,9 @@ class User extends Model
     {
         return Order::findByCollection('user_id', $this->id);
     }
+
+    public static function auth(): bool
+    {
+        return isset($_SESSION['user']);
+    }
 }

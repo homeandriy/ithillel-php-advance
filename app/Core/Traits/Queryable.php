@@ -22,7 +22,7 @@ trait Queryable
         static::resetQuery();
         static::$query = "SELECT " . implode(', ', $columns) . " FROM " . static::$tableName . " ";
 
-        $obj = new static();
+        $obj = new static;
         $obj->commands[] = 'select';
 
         return $obj;
@@ -68,12 +68,11 @@ trait Queryable
      * @param array $data
      * @return int
      */
-    public static function create(array $fields, ?string $table = null): int
+    static public function create(array $fields): int
     {
         $params = static::prepareQueryParams($fields);
-        $table = is_null($table) ? static::$tableName : $table;
 
-        $query = "INSERT INTO " . $table . " ({$params['keys']}) VALUES ({$params['placeholders']})";
+        $query = "INSERT INTO " . static::$tableName . " ({$params['keys']}) VALUES ({$params['placeholders']})";
         $query = Db::connect()->prepare($query);
 
         $query->execute($fields);
@@ -142,11 +141,13 @@ trait Queryable
         static::$query .= " AND";
         return $this->where($column, $operator, $value);
     }
+
     public function orWhere(string $column, string $operator, $value): static
     {
         static::$query .= " OR";
         return $this->where($column, $operator, $value);
     }
+
     public function orderBy(string $column, SqlOrder $sqlOrder = SqlOrder::ASC): static
     {
         if (!$this->prevent(['select'])) {

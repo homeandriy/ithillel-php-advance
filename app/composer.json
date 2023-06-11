@@ -10,7 +10,8 @@
       "App\\": "App/"
     },
     "files": [
-      "Config/helpers.php"
+      "Config/helpers.php",
+      "routes/web.php"
     ]
   },
   "authors": [
