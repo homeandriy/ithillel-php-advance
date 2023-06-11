@@ -6,12 +6,21 @@ use Core\Model;
 
 class Product extends Model
 {
-    public ?int $id;
-    protected static array $hasOne = [Category::class];
+    protected static string|null $tableName = 'products';
+    public $name,
+        $description,
+        $create_at,
+        $price,
+        $price_sale,
+        $slug,
+        $sku,
+        $is_active,
+        $image,
+        $update_at;
 
-    protected static string|null $tableName= 'products';
 
-    public function category(): Category {
+    public function category(): Category
+    {
         return Category::find($this->id);
     }
 }

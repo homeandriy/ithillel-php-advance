@@ -6,7 +6,6 @@ use Core\Model;
 
 class Category extends Model
 {
-    public ?int $id;
     protected static string|null $tableName = 'category';
     public string $name,
         $description,
@@ -16,6 +15,6 @@ class Category extends Model
         $image;
     public function products()
     {
-        return Product::findBy('category_id', $this->id);
+        return Product::findByCollection('category_id', $this->id);
     }
 }
