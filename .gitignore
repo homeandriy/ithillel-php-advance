@@ -1,5 +1,6 @@
 /.idea/
 .idea
+.idea/*
 # CMake
 cmake-build-*/
 # File-based project format
