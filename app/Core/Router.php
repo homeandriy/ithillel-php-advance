@@ -4,16 +4,19 @@ namespace Core;
 
 class Router
 {
+    public const POST = 'post';
+    public const GET = 'get';
+
     protected static array $routes = [], $params = [], $uriParams = [];
     protected static array $convertTypes = [
         'd' => 'int',
         'D' => 'string'
     ];
-    public static $isAjax = false;
+    public static bool $isAjax = false;
     public static string $siteUrl = '';
 
     // notes/{id: \d+}/edit
-    public static function add(string $route, array $params = []): void
+    static public function add(string $route, array $params = []): void
     {
         $route = preg_replace('/\//', '\\/', $route);
         $route = preg_replace('/\{([a-z_]+):([^}]+)}/', '(?P<$1>$2)', $route);

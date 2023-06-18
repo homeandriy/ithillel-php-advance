@@ -1,10 +1,10 @@
 <?php
 
-view('blocks/header');
+view('blocks/header-login');
 ?>
     <div class="sidenav">
         <div class="login-main-text">
-            <h2>Application<br> Register Page</h2>
+            <h2><?= \Config\Config::get('info.name')?><br> Register Page</h2>
             <p>Register from here to access.</p>
         </div>
     </div>
@@ -20,6 +20,10 @@ view('blocks/header');
                     </div>
                 <?php endif; ?>
                 <form method="post" action="<?= url('auth/signup') ?>">
+                    <div class="form-group">
+                        <label for="name">Email</label>
+                        <input type="text" pattern=".{2,}" id="name" class="form-control" name="name" placeholder="Name">
+                    </div>
                     <div class="form-group">
                         <label for="email">Email</label>
                         <input type="email" id="email" class="form-control" name="email" placeholder="Email">
@@ -40,4 +44,4 @@ view('blocks/header');
         </div>
     </div>
 <?php
-view('blocks/footer');
+view('blocks/footer-login');

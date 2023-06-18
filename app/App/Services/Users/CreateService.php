@@ -10,8 +10,13 @@ class CreateService
     {
         unset($fields['password_confirm']);
 
-        $fields['password'] = password_hash($fields['password'], PASSWORD_BCRYPT);
+        $fields['password'] = static::hashPassword($fields['password']);
 
         return User::create($fields);
+    }
+
+    public static function hashPassword(string $rawPassword): string
+    {
+        return password_hash($rawPassword, PASSWORD_BCRYPT);
     }
 }

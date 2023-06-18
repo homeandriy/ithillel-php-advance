@@ -5,11 +5,13 @@ namespace App\Validators\Auth;
 class SignUpValidator extends Base
 {
     protected array $rules = [
+        'name' => '/.{2,255}$/i',
         'email' => '/^[a-zA-Z0-9.!#$%&\'*+\/\?^_`{|}~-]+@[A-Z0-9.-]+\.[A-Z]{2,}$/i',
         'password' => '/[a-zA-Z0-9.!#$%&\'*+\/\?^_`{|}~-]{8,}/',
     ];
 
     protected array $errors = [
+        'name' => 'Name need minimum 2 char',
         'email' => 'Email is incorrect',
         'password' => 'Password is incorrect',
     ];
@@ -24,7 +26,7 @@ class SignUpValidator extends Base
         return true;
     }
 
-    public function validate(array $fields = []): bool
+    public function validate(array $fields = [], string $type = self::TYPE_INSERT): bool
     {
         $result = [
             parent::validate($fields),

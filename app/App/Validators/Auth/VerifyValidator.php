@@ -41,7 +41,7 @@ class VerifyValidator extends Base
         return true;
     }
 
-    public function validate(array $fields = []): bool
+    public function validate(array $fields = [], string $type = self::TYPE_INSERT): bool
     {
         $result = [
             parent::validate($fields),

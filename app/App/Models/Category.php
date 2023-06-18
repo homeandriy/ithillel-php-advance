@@ -11,8 +11,8 @@ class Category extends Model
         $description,
         $create_at,
         $update_at,
-        $slug,
-        $image;
+        $slug;
+    public ?string $image;
     public function products()
     {
         return Product::findByCollection('category_id', $this->id);
