@@ -17,7 +17,7 @@ trait Queryable
     // User::select() -> table name -> users
     // Note::select() -> table name -> notes
     // Note::select()->where()->orderBy()
-    static public function select(array $columns = ['*']): static
+    public static function select(array $columns = ['*']): static
     {
         static::resetQuery();
         static::$query = "SELECT " . implode(', ', $columns) . " FROM " . static::$tableName . " ";
@@ -27,8 +27,11 @@ trait Queryable
 
         return $obj;
     }
-
-    static public function find(int $id): static|false
+    public static function all(): array
+    {
+        return static::select()->get();
+    }
+    public static function find(int $id, ): static|false
     {
         $query = Db::connect()->prepare("SELECT * FROM " . static::$tableName . " WHERE id = :id");
         $query->bindParam('id', $id);
@@ -65,7 +68,7 @@ trait Queryable
      * VALUES
      * (.....)
      *
-     * @param array $data
+     * @param array $fields
      * @return int
      */
     static public function create(array $fields): int
@@ -74,7 +77,6 @@ trait Queryable
 
         $query = "INSERT INTO " . static::$tableName . " ({$params['keys']}) VALUES ({$params['placeholders']})";
         $query = Db::connect()->prepare($query);
-
         $query->execute($fields);
 
         return (int) Db::connect()->lastInsertId();
@@ -91,7 +93,7 @@ trait Queryable
         ];
     }
 
-    static protected function resetQuery()
+    protected static function resetQuery()
     {
         static::$query = "";
     }
@@ -122,7 +124,7 @@ trait Queryable
 
         $obj = in_array('select', $this->commands) ? $this : static::select();
 
-        if (!is_bool($value) && !is_numeric($value)) {
+        if (!is_bool($value) && !is_numeric($value) && $operator !== 'IN') {
             $value = "'{$value}'";
         }
 
@@ -140,6 +142,16 @@ trait Queryable
     {
         static::$query .= " AND";
         return $this->where($column, $operator, $value);
+    }
+    public function whereIn(string $column, array $value, $type = 'AND'): static
+    {
+        if (in_array('where', $this->commands)) {
+            static::$query .= " {$type}";
+        }
+
+        $value = "(" . implode(',', $value) . ") ";
+
+        return $this->where($column, 'IN', $value);
     }
 
     public function orWhere(string $column, string $operator, $value): static

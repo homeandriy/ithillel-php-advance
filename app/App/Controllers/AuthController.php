@@ -2,6 +2,7 @@
 
 namespace App\Controllers;
 
+use App\Helpers\Session;
 use App\Models\User;
 use App\Services\Users\CreateService;
 use App\Services\Users\VerifyService;
@@ -19,7 +20,6 @@ class AuthController extends Controller
         }
         $params = [];
 
-        // TODO move to FlashService
         if (!empty($_SESSION['login_errors'])) {
             $params['errors'] = $_SESSION['login_errors'];
             unset($_SESSION['login_errors']);
@@ -71,6 +71,9 @@ class AuthController extends Controller
         $fields = filter_input_array(INPUT_POST, $_POST);
         $validator = new VerifyValidator();
         if ($validator->validate($fields) && VerifyService::login($fields)) {
+            if(Session::userIsAdmin()) {
+                redirect('/admin/dashboard');
+            }
             redirect('/');
         }
         $_SESSION['login_errors'] = $validator->getErrors();

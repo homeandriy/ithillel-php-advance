@@ -1,10 +1,10 @@
 <?php
 
-view('blocks/header');
+view('blocks/header-login');
 ?>
     <div class="sidenav">
         <div class="login-main-text">
-            <h2>Application<br> Login Page</h2>
+            <h2><?= \Config\Config::get('info.name')?><br> Login Page</h2>
             <p>Login from here to access.</p>
         </div>
     </div>
@@ -35,4 +35,4 @@ view('blocks/header');
         </div>
     </div>
 <?php
-view('blocks/footer');
+view('blocks/footer-login');
