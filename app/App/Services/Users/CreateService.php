@@ -6,13 +6,14 @@ use App\Models\User;
 
 class CreateService
 {
+    public static ?int $userId ;
     public static function call($fields = []): bool
     {
         unset($fields['password_confirm']);
 
         $fields['password'] = static::hashPassword($fields['password']);
-
-        return User::create($fields);
+        static::$userId = User::create($fields);
+        return (bool) static::$userId;
     }
 
     public static function hashPassword(string $rawPassword): string

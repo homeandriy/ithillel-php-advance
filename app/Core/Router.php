@@ -10,7 +10,7 @@ class Router
     protected static array $routes = [], $params = [], $uriParams = [];
     protected static array $convertTypes = [
         'd' => 'int',
-        'D' => 'string'
+        '.' => 'string'
     ];
     public static bool $isAjax = false;
     public static string $siteUrl = '';
@@ -138,7 +138,7 @@ class Router
 
     protected static function setParams(string $route, array $matches, array $params): array
     {
-        preg_match_all('/\(\?P<[\w]+>\\\\(\w[\+]*)\)/', $route, $types);
+        preg_match_all('/\(\?P<[\w]+>(\\\\)?([\w\.][\+]*)\)/', $route, $types);
         $matches = array_filter($matches, 'is_string', ARRAY_FILTER_USE_KEY);
 
         if (!empty($types)) {
@@ -167,5 +167,10 @@ class Router
         }
         // notes/5/edit(?var=value&) => notes/5/edit
         return strtok($url, '?');
+    }
+
+    public static function getUriParams(): array
+    {
+        return static::$uriParams;
     }
 }

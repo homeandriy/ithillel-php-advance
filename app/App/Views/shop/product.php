@@ -60,14 +60,7 @@ view('blocks/header');
                         <span>(<?= mt_rand(1, 10000) ?> оцінок)</span>
                     </div>
                     <div class="product__details__price"><?= displayPrice($product ,true)?></div>
-                    <div class="product__details__quantity">
-                        <div class="quantity">
-                            <div class="pro-qty">
-                                <input type="text" value="1">
-                            </div>
-                        </div>
-                    </div>
-                    <a href="#" class="add-to-cart primary-btn" data-id="<?= $product->id ?>">Додати до кошика</a>
+                    <a href="#" class="add-to-cart primary-btn" data-product_id="<?= $product->id ?>">Додати до кошика</a>
                     <ul>
                         <li><b>Наявність</b> <span>В наявності</span></li>
                     </ul>
@@ -125,7 +118,7 @@ view('blocks/header');
                     <div class="product__item">
                         <div class="product__item__pic set-bg" data-setbg="<?= ASSETS_URI?>img/product/product-2.jpg">
                             <ul class="product__item__pic__hover">
-                                <li><a href="#" class="add-to-cart" data-id="<?= $relatedProduct->id ?>"><i class="fa fa-shopping-cart"></i></a></li>
+                                <li><a href="#" class="add-to-cart" data-product_id="<?= $product->id; ?>"><i class="fa fa-shopping-cart"></i></a></li>
                             </ul>
                         </div>
                         <div class="product__discount__item__text">

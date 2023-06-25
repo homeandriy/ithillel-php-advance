@@ -77,9 +77,83 @@ Router::add(
         'method' => Router::GET
     ]
 );
+Router::add(
+    'shop/cart',
+    [
+        'controller' => \App\Controllers\ShopController::class,
+        'action' => 'cart',
+        'method' => Router::GET
+    ]
+);
+Router::add(
+    'shop/cart/ajax',
+    [
+        'controller' => \App\Controllers\ShopController::class,
+        'action' => 'cart',
+        'method' => Router::POST
+    ]
+);
 
 Router::add(
-    'shop/product/{slug:\D+}',
+    'shop/cart/add',
+    [
+        'controller' => \App\Controllers\ShopController::class,
+        'action' => 'add',
+        'method' => Router::POST
+    ]
+);
+Router::add(
+    'shop/cart/reduce',
+    [
+        'controller' => \App\Controllers\ShopController::class,
+        'action' => 'reduce',
+        'method' => Router::POST
+    ]
+);
+Router::add(
+    'shop/cart/remove',
+    [
+        'controller' => \App\Controllers\ShopController::class,
+        'action' => 'remove',
+        'method' => Router::POST
+    ]
+);
+
+Router::add(
+    'shop/checkout',
+    [
+        'controller' => \App\Controllers\ShopController::class,
+        'action' => 'checkout',
+        'method' => Router::GET
+    ]
+);
+Router::add(
+    'shop/checkout/processing',
+    [
+        'controller' => \App\Controllers\ShopController::class,
+        'action' => 'checkoutProcessing',
+        'method' => Router::POST
+    ]
+);
+Router::add(
+    'shop/thanks/{id:\d+}',
+    [
+        'controller' => \App\Controllers\ShopController::class,
+        'action' => 'thanks',
+        'method' => Router::GET
+    ]
+);
+Router::add(
+    'shop/search',
+    [
+        'controller' => \App\Controllers\ShopController::class,
+        'action' => 'search',
+        'method' => Router::GET
+    ]
+);
+
+Router::add(
+    'shop/product/{slug:.+}',
     [
         'controller' => \App\Controllers\ShopController::class,
         'action' => 'show',
@@ -298,5 +372,14 @@ Router::add(
         'controller' => \App\Controllers\UserController::class,
         'action' => 'destroy',
         'method' => Router::POST
+    ]
+);
+// Contact
+Router::add(
+    'contacts',
+    [
+        'controller' => \App\Controllers\IndexController::class,
+        'action' => 'contacts',
+        'method' => Router::GET
     ]
 );

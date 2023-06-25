@@ -42,6 +42,24 @@
         </footer>
         <!-- Footer Section End -->
 
+        <!-- MODALS -->
+        <div class="modal fade bd-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel" aria-hidden="true" id="shopping-cart">
+            <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Корзина</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    <div class="modal-body">
+                        <div id="shopping-cart-content"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /MODALS -->
+
         <!-- Js Plugins -->
         <script src="<?= ASSETS_URI ?>js/jquery-3.3.1.min.js"></script>
         <script src="<?= ASSETS_URI ?>js/bootstrap.min.js"></script>

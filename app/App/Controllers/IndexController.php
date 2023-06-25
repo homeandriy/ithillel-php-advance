@@ -11,4 +11,9 @@ class IndexController extends Controller
         view('index/main');
     }
 
+    public function contacts(): void
+    {
+        view('index/contacts');
+    }
+
 }

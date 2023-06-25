@@ -17,4 +17,9 @@ class Product extends Model
     {
         return Category::find($this->category_id);
     }
+
+    public function price()
+    {
+        return $this->price_sale > 1 && $this->price_sale < $this->price ? $this->price_sale : $this->price;
+    }
 }
