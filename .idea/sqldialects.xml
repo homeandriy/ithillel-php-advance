@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="SqlDialectMappings">
-    <file url="file://$PROJECT_DIR$/app/src/Utils/Faker.php" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/app/migrations/scripts/0_migrations.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/app/migrations/scripts/1_users.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/app/migrations/scripts/2_category.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/app/migrations/scripts/3_products.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/app/migrations/scripts/4_orders.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/app/migrations/scripts/5_orders_prods.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/docker/mysql/init.sql" dialect="MySQL" />
     <file url="PROJECT" dialect="PostgreSQL" />
   </component>
 </project>

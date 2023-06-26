@@ -15,27 +15,31 @@ services:
     restart: always
     volumes:
       - "./app:/var/www/html"
+      - "./tmp:/tmp/php"
     ports:
       - "8085:80"
     networks:
       php-app:
-  db:
-    image: postgres:15.2-alpine
+  database:
+    image: mysql:8.0.3
     restart: always
+    ports:
+      - "3306:3306"
     environment:
-      POSTGRES_PASSWORD: supersecret
-      POSTGRES_USER: pguser
-    ports:
-      - "5433:5433"
-    volumes:
-      - "db_volume:/var/lib/postgresql/data"
-    command: -p 5433
+      MYSQL_ROOT_PASSWORD: secret
+      MYSQL_ROOT_HOST: '%'
+    command: --init-file /data/application/init.sql
     networks:
-      - php-app
-  adminer:
-    image: adminer:latest
+      php-app:
+    volumes:
+      - "./db_volume:/var/lib/mysql"
+      - "./docker/mysql/init.sql:/data/application/init.sql"
+  phpmyadmin:
+    image: phpmyadmin:5.2.1-apache
     restart: always
     ports:
-      - "8080:8080"
+      - "9000:80"
+    environment:
+      - PMA_ARBITRARY=1
     networks:
       - php-app

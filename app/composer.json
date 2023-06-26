@@ -1,24 +1,32 @@
 {
-    "name": "homeandriy/ithillel",
-    "description": "Homeworks for ithillel",
-    "type": "project",
-    "require-dev": {
-        "larapack/dd": "^1.1"
+  "name": "homeandriy/ithillel",
+  "description": "Homeworks for ithillel",
+  "type": "project",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Config\\": "Config/",
+      "Core\\": "Core/",
+      "App\\": "App/"
     },
-    "license": "MIT",
-    "autoload": {
-        "psr-4": {
-            "Homeandriy\\Ithillel\\": "src/"
-        }
-    },
-    "authors": [
-        {
-            "name": "Andriy Beznosko",
-            "email": "homeandriy@gmaiil.com"
-        }
-    ],
-    "require": {
-        "php": "8.1.*",
-        "fakerphp/faker": "^1.21"
+    "files": [
+      "Core/helpers.php",
+      "routes/web.php"
+    ]
+  },
+  "authors": [
+    {
+      "name": "Andriy Beznosko",
+      "email": "homeandriy@gmaiil.com"
     }
+  ],
+  "require": {
+    "php": "8.1.*",
+    "vlucas/phpdotenv": "^5.5",
+    "ext-pdo": "*"
+  },
+  "require-dev": {
+    "larapack/dd": "^1.1",
+    "fakerphp/faker": "^1.21"
+  }
 }

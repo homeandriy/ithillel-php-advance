@@ -1,0 +1,872 @@
+[03-Jun-2023 13:39:56 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[03-Jun-2023 13:39:56 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[03-Jun-2023 13:39:56 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[03-Jun-2023 13:39:56 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 13:59:18 UTC] PHP Warning:  Module "curl" is already loaded in Unknown on line 0
+[03-Jun-2023 13:59:18 UTC] PHP Warning:  Module "fileinfo" is already loaded in Unknown on line 0
+[03-Jun-2023 13:59:18 UTC] PHP Warning:  Module "mbstring" is already loaded in Unknown on line 0
+[03-Jun-2023 13:59:18 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 14:53:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 14:53:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 14:53:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 14:53:30 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 15:52:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 15:52:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 15:52:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 15:52:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 15:55:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 15:55:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 15:55:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 15:55:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 15:57:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 15:57:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 15:57:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 15:57:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 15:57:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 15:57:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 15:57:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 15:57:42 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:03:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:03:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:03:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:03:20 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:03:37 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:03:37 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:03:37 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:03:37 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:04:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:04:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:04:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:04:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:10:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:10:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:10:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:10:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:13:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:13:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:13:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:13:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:14:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:14:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:14:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:14:04 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:18:01 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:18:01 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:18:01 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:18:01 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:28:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:28:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:28:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:28:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:30:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:30:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:30:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:30:17 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:32:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:32:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:32:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:32:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:34:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:34:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:34:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:34:39 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:34:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:34:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:34:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:34:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[03-Jun-2023 16:47:21 UTC] PHP Fatal error:  Uncaught ValueError: PDO::query(): Argument #1 ($query) cannot be empty in /var/www/html/Core/Traits/Queryable.php:63
+Stack trace:
+#0 /var/www/html/Core/Traits/Queryable.php(63): PDO->query('')
+#1 /var/www/html/public/index.php(23): Core\Model->get()
+#2 {main}
+  thrown in /var/www/html/Core/Traits/Queryable.php on line 63
+[03-Jun-2023 16:47:21 UTC] PHP Fatal error:  Uncaught ValueError: PDO::query(): Argument #1 ($query) cannot be empty in /var/www/html/Core/Traits/Queryable.php:63
+Stack trace:
+#0 /var/www/html/Core/Traits/Queryable.php(63): PDO->query('')
+#1 /var/www/html/public/index.php(23): Core\Model->get()
+#2 {main}
+  thrown in /var/www/html/Core/Traits/Queryable.php on line 63
+[03-Jun-2023 16:49:14 UTC] PHP Fatal error:  Uncaught ValueError: PDO::query(): Argument #1 ($query) cannot be empty in /var/www/html/Core/Traits/Queryable.php:63
+Stack trace:
+#0 /var/www/html/Core/Traits/Queryable.php(63): PDO->query('')
+#1 /var/www/html/public/index.php(23): Core\Model->get()
+#2 {main}
+  thrown in /var/www/html/Core/Traits/Queryable.php on line 63
+[03-Jun-2023 16:49:14 UTC] PHP Fatal error:  Uncaught ValueError: PDO::query(): Argument #1 ($query) cannot be empty in /var/www/html/Core/Traits/Queryable.php:63
+Stack trace:
+#0 /var/www/html/Core/Traits/Queryable.php(63): PDO->query('')
+#1 /var/www/html/public/index.php(23): Core\Model->get()
+#2 {main}
+  thrown in /var/www/html/Core/Traits/Queryable.php on line 63
+[03-Jun-2023 16:51:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\Product::category() in /var/www/html/public/index.php:23
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 23
+[03-Jun-2023 16:51:12 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Models\Product::category() in /var/www/html/public/index.php:23
+Stack trace:
+#0 {main}
+  thrown in /var/www/html/public/index.php on line 23
+[03-Jun-2023 18:56:20 UTC] PHP Fatal error:  Uncaught Error: Typed property App\Models\User::$id must not be accessed before initialization in /var/www/html/Core/Model.php:13
+Stack trace:
+#0 /var/www/html/Core/Model.php(47): Core\Model->getId()
+#1 /var/www/html/public/index.php(29): Core\Model->update(Array)
+#2 {main}
+  thrown in /var/www/html/Core/Model.php on line 13
+[03-Jun-2023 18:56:20 UTC] PHP Fatal error:  Uncaught Error: Typed property App\Models\User::$id must not be accessed before initialization in /var/www/html/Core/Model.php:13
+Stack trace:
+#0 /var/www/html/Core/Model.php(47): Core\Model->getId()
+#1 /var/www/html/public/index.php(29): Core\Model->update(Array)
+#2 {main}
+  thrown in /var/www/html/Core/Model.php on line 13
+[03-Jun-2023 18:57:48 UTC] PHP Fatal error:  Uncaught Error: Typed property App\Models\User::$id must not be accessed before initialization in /var/www/html/Core/Model.php:13
+Stack trace:
+#0 /var/www/html/Core/Model.php(47): Core\Model->getId()
+#1 /var/www/html/public/index.php(29): Core\Model->update(Array)
+#2 {main}
+  thrown in /var/www/html/Core/Model.php on line 13
+[03-Jun-2023 18:57:48 UTC] PHP Fatal error:  Uncaught Error: Typed property App\Models\User::$id must not be accessed before initialization in /var/www/html/Core/Model.php:13
+Stack trace:
+#0 /var/www/html/Core/Model.php(47): Core\Model->getId()
+#1 /var/www/html/public/index.php(29): Core\Model->update(Array)
+#2 {main}
+  thrown in /var/www/html/Core/Model.php on line 13
+[03-Jun-2023 18:58:50 UTC] PHP Fatal error:  Uncaught Error: Typed property App\Models\User::$id must not be accessed before initialization in /var/www/html/Core/Model.php:13
+Stack trace:
+#0 /var/www/html/Core/Model.php(47): Core\Model->getId()
+#1 /var/www/html/public/index.php(29): Core\Model->update(Array)
+#2 {main}
+  thrown in /var/www/html/Core/Model.php on line 13
+[03-Jun-2023 18:58:50 UTC] PHP Fatal error:  Uncaught Error: Typed property App\Models\User::$id must not be accessed before initialization in /var/www/html/Core/Model.php:13
+Stack trace:
+#0 /var/www/html/Core/Model.php(47): Core\Model->getId()
+#1 /var/www/html/public/index.php(29): Core\Model->update(Array)
+#2 {main}
+  thrown in /var/www/html/Core/Model.php on line 13
+[03-Jun-2023 18:58:51 UTC] PHP Fatal error:  Uncaught Error: Typed property App\Models\User::$id must not be accessed before initialization in /var/www/html/Core/Model.php:13
+Stack trace:
+#0 /var/www/html/Core/Model.php(47): Core\Model->getId()
+#1 /var/www/html/public/index.php(29): Core\Model->update(Array)
+#2 {main}
+  thrown in /var/www/html/Core/Model.php on line 13
+[03-Jun-2023 18:58:52 UTC] PHP Fatal error:  Uncaught Error: Typed property App\Models\User::$id must not be accessed before initialization in /var/www/html/Core/Model.php:13
+Stack trace:
+#0 /var/www/html/Core/Model.php(47): Core\Model->getId()
+#1 /var/www/html/public/index.php(29): Core\Model->update(Array)
+#2 {main}
+  thrown in /var/www/html/Core/Model.php on line 13
+[03-Jun-2023 18:59:41 UTC] PHP Fatal error:  Uncaught Error: Typed property App\Models\User::$id must not be accessed before initialization in /var/www/html/Core/Model.php:13
+Stack trace:
+#0 /var/www/html/Core/Model.php(47): Core\Model->getId()
+#1 /var/www/html/public/index.php(29): Core\Model->update(Array)
+#2 {main}
+  thrown in /var/www/html/Core/Model.php on line 13
+[03-Jun-2023 18:59:41 UTC] PHP Fatal error:  Uncaught Error: Typed property App\Models\User::$id must not be accessed before initialization in /var/www/html/Core/Model.php:13
+Stack trace:
+#0 /var/www/html/Core/Model.php(47): Core\Model->getId()
+#1 /var/www/html/public/index.php(29): Core\Model->update(Array)
+#2 {main}
+  thrown in /var/www/html/Core/Model.php on line 13
+[03-Jun-2023 18:59:43 UTC] PHP Fatal error:  Uncaught Error: Typed property App\Models\User::$id must not be accessed before initialization in /var/www/html/Core/Model.php:13
+Stack trace:
+#0 /var/www/html/Core/Model.php(47): Core\Model->getId()
+#1 /var/www/html/public/index.php(29): Core\Model->update(Array)
+#2 {main}
+  thrown in /var/www/html/Core/Model.php on line 13
+[03-Jun-2023 18:59:44 UTC] PHP Fatal error:  Uncaught Error: Typed property App\Models\User::$id must not be accessed before initialization in /var/www/html/Core/Model.php:13
+Stack trace:
+#0 /var/www/html/Core/Model.php(47): Core\Model->getId()
+#1 /var/www/html/public/index.php(29): Core\Model->update(Array)
+#2 {main}
+  thrown in /var/www/html/Core/Model.php on line 13
+[03-Jun-2023 18:59:59 UTC] PHP Fatal error:  Uncaught Error: Typed property App\Models\User::$id must not be accessed before initialization in /var/www/html/Core/Model.php:13
+Stack trace:
+#0 /var/www/html/Core/Model.php(47): Core\Model->getId()
+#1 /var/www/html/public/index.php(29): Core\Model->update(Array)
+#2 {main}
+  thrown in /var/www/html/Core/Model.php on line 13
+[03-Jun-2023 18:59:59 UTC] PHP Fatal error:  Uncaught Error: Typed property App\Models\User::$id must not be accessed before initialization in /var/www/html/Core/Model.php:13
+Stack trace:
+#0 /var/www/html/Core/Model.php(47): Core\Model->getId()
+#1 /var/www/html/public/index.php(29): Core\Model->update(Array)
+#2 {main}
+  thrown in /var/www/html/Core/Model.php on line 13
+[03-Jun-2023 19:00:08 UTC] PHP Fatal error:  Uncaught Error: Typed property App\Models\User::$id must not be accessed before initialization in /var/www/html/Core/Model.php:16
+Stack trace:
+#0 /var/www/html/Core/Model.php(47): Core\Model->getId()
+#1 /var/www/html/public/index.php(29): Core\Model->update(Array)
+#2 {main}
+  thrown in /var/www/html/Core/Model.php on line 16
+[03-Jun-2023 19:00:09 UTC] PHP Fatal error:  Uncaught Error: Typed property App\Models\User::$id must not be accessed before initialization in /var/www/html/Core/Model.php:16
+Stack trace:
+#0 /var/www/html/Core/Model.php(47): Core\Model->getId()
+#1 /var/www/html/public/index.php(29): Core\Model->update(Array)
+#2 {main}
+  thrown in /var/www/html/Core/Model.php on line 16
+[12-Jun-2023 06:25:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[12-Jun-2023 06:25:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[12-Jun-2023 06:25:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[12-Jun-2023 06:25:19 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[13-Jun-2023 08:10:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[13-Jun-2023 08:10:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[13-Jun-2023 08:10:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[13-Jun-2023 08:10:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[14-Jun-2023 07:19:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[14-Jun-2023 07:19:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[14-Jun-2023 07:19:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[14-Jun-2023 07:19:41 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 06:43:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 06:43:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 06:43:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 06:43:44 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 18:31:56 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 18:31:56 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 18:31:56 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 18:31:56 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 18:31:56 UTC] PHP Warning:  Undefined array key "REQUEST_SCHEME" in /var/www/html/Config/constants.php on line 7
+[15-Jun-2023 18:31:56 UTC] PHP Warning:  Undefined array key "HTTP_HOST" in /var/www/html/Config/constants.php on line 7
+[15-Jun-2023 18:32:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 18:32:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 18:32:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 18:32:15 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 18:32:15 UTC] PHP Warning:  Undefined array key "REQUEST_SCHEME" in /var/www/html/Config/constants.php on line 7
+[15-Jun-2023 18:32:15 UTC] PHP Warning:  Undefined array key "HTTP_HOST" in /var/www/html/Config/constants.php on line 7
+[15-Jun-2023 19:03:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 19:03:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 19:03:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 19:03:48 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 19:03:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 19:03:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 19:03:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 19:03:55 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[15-Jun-2023 19:45:10 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:171) in /var/www/html/Core/helpers.php on line 36
+[15-Jun-2023 19:45:16 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:171) in /var/www/html/Core/helpers.php on line 36
+[15-Jun-2023 20:12:35 UTC] PHP Fatal error:  Uncaught TypeError: App\Models\Product::category(): Return value must be of type App\Models\Category, bool returned in /var/www/html/App/Models/Product.php:24
+Stack trace:
+#0 /var/www/html/App/Views/admin/products/index.php(35): App\Models\Product->category()
+#1 /var/www/html/Core/View.php(17): require('/var/www/html/A...')
+#2 /var/www/html/Core/helpers.php(13): Core\View::render('admin/products/...', Array)
+#3 /var/www/html/App/Controllers/ProductController.php(20): view('admin/products/...', Array)
+#4 [internal function]: App\Controllers\ProductController->index()
+#5 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#6 /var/www/html/public/index.php(16): Core\Router::dispatch('admin/products')
+#7 {main}
+  thrown in /var/www/html/App/Models/Product.php on line 24
+[16-Jun-2023 06:09:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Jun-2023 06:09:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Jun-2023 06:09:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Jun-2023 06:09:53 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Undefined variable $instance in /var/www/html/App/Views/blocks/common/option.php on line 8
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/App/Views/blocks/common/option.php on line 8
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Undefined variable $instance in /var/www/html/App/Views/blocks/common/option.php on line 9
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/App/Views/blocks/common/option.php on line 9
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Undefined variable $instance in /var/www/html/App/Views/blocks/common/option.php on line 10
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/App/Views/blocks/common/option.php on line 10
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Undefined variable $instance in /var/www/html/App/Views/blocks/common/option.php on line 8
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/App/Views/blocks/common/option.php on line 8
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Undefined variable $instance in /var/www/html/App/Views/blocks/common/option.php on line 9
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/App/Views/blocks/common/option.php on line 9
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Undefined variable $instance in /var/www/html/App/Views/blocks/common/option.php on line 10
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/App/Views/blocks/common/option.php on line 10
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Undefined variable $instance in /var/www/html/App/Views/blocks/common/option.php on line 8
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/App/Views/blocks/common/option.php on line 8
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Undefined variable $instance in /var/www/html/App/Views/blocks/common/option.php on line 9
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/App/Views/blocks/common/option.php on line 9
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Undefined variable $instance in /var/www/html/App/Views/blocks/common/option.php on line 10
+[16-Jun-2023 17:36:52 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/App/Views/blocks/common/option.php on line 10
+[16-Jun-2023 17:51:18 UTC] PHP Warning:  Undefined property: App\Models\Category::$price in /var/www/html/App/Views/admin/categories/index.php on line 35
+[16-Jun-2023 17:51:18 UTC] PHP Warning:  Undefined property: App\Models\Category::$price_sale in /var/www/html/App/Views/admin/categories/index.php on line 35
+[16-Jun-2023 17:51:18 UTC] PHP Warning:  Undefined property: App\Models\Category::$price in /var/www/html/App/Views/admin/categories/index.php on line 35
+[16-Jun-2023 17:51:18 UTC] PHP Warning:  Undefined property: App\Models\Category::$price_sale in /var/www/html/App/Views/admin/categories/index.php on line 35
+[16-Jun-2023 18:06:45 UTC] PHP Fatal error:  Uncaught Error: Typed property App\Models\Order::$_products must not be accessed before initialization in /var/www/html/App/Models/Order.php:33
+Stack trace:
+#0 /var/www/html/App/Views/admin/orders/index.php(40): App\Models\Order->products()
+#1 /var/www/html/Core/View.php(17): require('/var/www/html/A...')
+#2 /var/www/html/Core/helpers.php(13): Core\View::render('admin/orders/in...', Array)
+#3 /var/www/html/App/Controllers/OrdersController.php(18): view('admin/orders/in...', Array)
+#4 [internal function]: App\Controllers\OrdersController->index()
+#5 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#6 /var/www/html/public/index.php(16): Core\Router::dispatch('admin/orders')
+#7 {main}
+  thrown in /var/www/html/App/Models/Order.php on line 33
+[16-Jun-2023 19:34:01 UTC] PHP Fatal error:  Uncaught TypeError: App\Services\CategoryService::create(): Argument #2 ($fields) must be of type array, bool given, called in /var/www/html/App/Controllers/CategoryController.php on line 41 and defined in /var/www/html/App/Services/CategoryService.php:10
+Stack trace:
+#0 /var/www/html/App/Controllers/CategoryController.php(41): App\Services\CategoryService::create(Object(App\Validators\CategoryValidator), false)
+#1 [internal function]: App\Controllers\CategoryController->store()
+#2 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#3 /var/www/html/public/index.php(16): Core\Router::dispatch('admin/categorie...')
+#4 {main}
+  thrown in /var/www/html/App/Services/CategoryService.php on line 10
+[16-Jun-2023 19:38:16 UTC] PHP Fatal error:  Uncaught Error: Call to undefined method App\Controllers\CategoryController::getErrors() in /var/www/html/App/Controllers/CategoryController.php:46
+Stack trace:
+#0 [internal function]: App\Controllers\CategoryController->store()
+#1 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#2 /var/www/html/public/index.php(16): Core\Router::dispatch('admin/categorie...')
+#3 {main}
+  thrown in /var/www/html/App/Controllers/CategoryController.php on line 46
+[16-Jun-2023 20:06:56 UTC] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\Models\Category::$image of type string in /var/www/html/Core/Traits/Queryable.php:188
+Stack trace:
+#0 /var/www/html/Core/Traits/Queryable.php(188): PDOStatement->fetchAll(8, 'App\\Models\\Cate...')
+#1 /var/www/html/Core/Traits/Queryable.php(32): Core\Model->get()
+#2 /var/www/html/App/Controllers/CategoryController.php(22): Core\Model::all()
+#3 [internal function]: App\Controllers\CategoryController->index()
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('admin/categorie...')
+#6 {main}
+  thrown in /var/www/html/Core/Traits/Queryable.php on line 188
+[16-Jun-2023 20:08:00 UTC] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\Models\Category::$image of type string in /var/www/html/Core/Traits/Queryable.php:188
+Stack trace:
+#0 /var/www/html/Core/Traits/Queryable.php(188): PDOStatement->fetchAll(8, 'App\\Models\\Cate...')
+#1 /var/www/html/Core/Traits/Queryable.php(32): Core\Model->get()
+#2 /var/www/html/App/Controllers/CategoryController.php(22): Core\Model::all()
+#3 [internal function]: App\Controllers\CategoryController->index()
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('admin/categorie...')
+#6 {main}
+  thrown in /var/www/html/Core/Traits/Queryable.php on line 188
+[16-Jun-2023 20:45:44 UTC] PHP Warning:  Undefined variable $category in /var/www/html/App/Views/admin/categories/show.php on line 25
+[16-Jun-2023 20:45:44 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/App/Views/admin/categories/show.php on line 25
+[16-Jun-2023 20:45:44 UTC] PHP Warning:  Undefined variable $category in /var/www/html/App/Views/admin/categories/show.php on line 29
+[16-Jun-2023 20:45:44 UTC] PHP Warning:  Attempt to read property "name" on null in /var/www/html/App/Views/admin/categories/show.php on line 29
+[16-Jun-2023 20:45:44 UTC] PHP Warning:  Undefined variable $category in /var/www/html/App/Views/admin/categories/show.php on line 33
+[16-Jun-2023 20:45:44 UTC] PHP Warning:  Attempt to read property "slug" on null in /var/www/html/App/Views/admin/categories/show.php on line 33
+[16-Jun-2023 20:45:44 UTC] PHP Warning:  Undefined variable $category in /var/www/html/App/Views/admin/categories/show.php on line 37
+[16-Jun-2023 20:45:44 UTC] PHP Warning:  Attempt to read property "description" on null in /var/www/html/App/Views/admin/categories/show.php on line 37
+[16-Jun-2023 20:56:19 UTC] PHP Warning:  Undefined array key "id" in /var/www/html/App/Validators/CategoryValidator.php on line 33
+[16-Jun-2023 20:56:19 UTC] PHP Fatal error:  Uncaught TypeError: Core\Model::find(): Argument #1 ($id) must be of type int, null given, called in /var/www/html/App/Validators/CategoryValidator.php on line 33 and defined in /var/www/html/Core/Traits/Queryable.php:34
+Stack trace:
+#0 /var/www/html/App/Validators/CategoryValidator.php(33): Core\Model::find(NULL)
+#1 /var/www/html/App/Services/CategoryService.php(21): App\Validators\CategoryValidator->validate(Array, 'update')
+#2 /var/www/html/App/Controllers/CategoryController.php(58): App\Services\CategoryService::update(Object(App\Validators\CategoryValidator), Array)
+#3 [internal function]: App\Controllers\CategoryController->update(1)
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('admin/category/...')
+#6 {main}
+  thrown in /var/www/html/Core/Traits/Queryable.php on line 34
+[17-Jun-2023 14:50:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[17-Jun-2023 14:50:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[17-Jun-2023 14:50:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[17-Jun-2023 14:50:45 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[17-Jun-2023 17:17:50 UTC] PHP Fatal error:  Uncaught TypeError: Cannot assign null to property App\Models\Product::$image of type string in /var/www/html/Core/Traits/Queryable.php:188
+Stack trace:
+#0 /var/www/html/Core/Traits/Queryable.php(188): PDOStatement->fetchAll(8, 'App\\Models\\Prod...')
+#1 /var/www/html/Core/Traits/Queryable.php(32): Core\Model->get()
+#2 /var/www/html/App/Controllers/ProductController.php(23): Core\Model::all()
+#3 [internal function]: App\Controllers\ProductController->index()
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('admin/products')
+#6 {main}
+  thrown in /var/www/html/Core/Traits/Queryable.php on line 188
+[17-Jun-2023 17:29:30 UTC] PHP Warning:  Undefined variable $product in /var/www/html/App/Views/admin/products/edit.php on line 9
+[17-Jun-2023 17:29:30 UTC] PHP Warning:  Attempt to read property "name" on null in /var/www/html/App/Views/admin/products/edit.php on line 9
+[17-Jun-2023 17:29:30 UTC] PHP Warning:  Undefined variable $product in /var/www/html/App/Views/admin/products/edit.php on line 19
+[17-Jun-2023 17:29:30 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/App/Views/admin/products/edit.php on line 19
+[17-Jun-2023 17:29:30 UTC] PHP Warning:  Undefined variable $product in /var/www/html/App/Views/admin/products/edit.php on line 20
+[17-Jun-2023 17:29:30 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/App/Views/admin/products/edit.php on line 20
+[17-Jun-2023 17:29:30 UTC] PHP Warning:  Undefined variable $product in /var/www/html/App/Views/admin/products/edit.php on line 66
+[17-Jun-2023 17:29:30 UTC] PHP Warning:  Attempt to read property "category_id" on null in /var/www/html/App/Views/admin/products/edit.php on line 66
+[17-Jun-2023 17:29:30 UTC] PHP Warning:  Undefined variable $product in /var/www/html/App/Views/admin/products/edit.php on line 66
+[17-Jun-2023 17:29:30 UTC] PHP Warning:  Attempt to read property "category_id" on null in /var/www/html/App/Views/admin/products/edit.php on line 66
+[17-Jun-2023 17:29:30 UTC] PHP Warning:  Undefined variable $product in /var/www/html/App/Views/admin/products/edit.php on line 66
+[17-Jun-2023 17:29:30 UTC] PHP Warning:  Attempt to read property "category_id" on null in /var/www/html/App/Views/admin/products/edit.php on line 66
+[17-Jun-2023 18:16:00 UTC] PHP Warning:  Undefined property: App\Models\Order::$name in /var/www/html/App/Views/admin/orders/edit.php on line 25
+[17-Jun-2023 18:16:00 UTC] PHP Warning:  Undefined property: App\Models\Order::$description in /var/www/html/App/Views/admin/orders/edit.php on line 30
+[17-Jun-2023 18:16:00 UTC] PHP Warning:  Undefined property: App\Models\Order::$slug in /var/www/html/App/Views/admin/orders/edit.php on line 35
+[17-Jun-2023 18:33:33 UTC] PHP Warning:  Undefined variable $products in /var/www/html/App/Views/admin/users/index.php on line 36
+[17-Jun-2023 18:33:33 UTC] PHP Warning:  foreach() argument must be of type array|object, null given in /var/www/html/App/Views/admin/users/index.php on line 36
+[17-Jun-2023 18:56:13 UTC] PHP Warning:  Undefined property: App\Models\Product::$amount in /var/www/html/App/Views/admin/orders/show.php on line 56
+[17-Jun-2023 18:56:34 UTC] PHP Warning:  Undefined property: App\Models\Product::$amount in /var/www/html/App/Views/admin/orders/show.php on line 56
+[17-Jun-2023 19:23:29 UTC] PHP Parse error:  syntax error, unexpected token "endif" in /var/www/html/App/Views/admin/users/edit.php on line 25
+[17-Jun-2023 20:03:58 UTC] PHP Warning:  Undefined variable $user in /var/www/html/App/Views/admin/users/create.php on line 41
+[17-Jun-2023 20:03:58 UTC] PHP Warning:  Attempt to read property "admin" on null in /var/www/html/App/Views/admin/users/create.php on line 41
+[17-Jun-2023 20:03:58 UTC] PHP Warning:  Undefined variable $user in /var/www/html/App/Views/admin/users/create.php on line 43
+[17-Jun-2023 20:03:58 UTC] PHP Warning:  Attempt to read property "admin" on null in /var/www/html/App/Views/admin/users/create.php on line 43
+[17-Jun-2023 20:08:35 UTC] PHP Warning:  Undefined array key "password_confirm" in /var/www/html/App/Validators/Auth/SignUpValidator.php on line 31
+[17-Jun-2023 20:08:35 UTC] PHP Fatal error:  Uncaught TypeError: App\Validators\Auth\SignUpValidator::passwordConfirmation(): Argument #2 ($passConfirm) must be of type string, null given, called in /var/www/html/App/Validators/Auth/SignUpValidator.php on line 31 and defined in /var/www/html/App/Validators/Auth/SignUpValidator.php:17
+Stack trace:
+#0 /var/www/html/App/Validators/Auth/SignUpValidator.php(31): App\Validators\Auth\SignUpValidator->passwordConfirmation('qaZxc1205++1', NULL)
+#1 /var/www/html/App/Controllers/UserController.php(46): App\Validators\Auth\SignUpValidator->validate(Array)
+#2 [internal function]: App\Controllers\UserController->store()
+#3 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#4 /var/www/html/public/index.php(16): Core\Router::dispatch('admin/user/stor...')
+#5 {main}
+  thrown in /var/www/html/App/Validators/Auth/SignUpValidator.php on line 17
+[17-Jun-2023 20:10:19 UTC] PHP Warning:  Undefined array key "password_confirm" in /var/www/html/App/Validators/Auth/SignUpValidator.php on line 31
+[17-Jun-2023 20:10:19 UTC] PHP Fatal error:  Uncaught TypeError: App\Validators\Auth\SignUpValidator::passwordConfirmation(): Argument #2 ($passConfirm) must be of type string, null given, called in /var/www/html/App/Validators/Auth/SignUpValidator.php on line 31 and defined in /var/www/html/App/Validators/Auth/SignUpValidator.php:17
+Stack trace:
+#0 /var/www/html/App/Validators/Auth/SignUpValidator.php(31): App\Validators\Auth\SignUpValidator->passwordConfirmation('qaZxc1205++1', NULL)
+#1 /var/www/html/App/Validators/UserValidator.php(10): App\Validators\Auth\SignUpValidator->validate(Array)
+#2 /var/www/html/App/Controllers/UserController.php(47): App\Validators\UserValidator->validate(Array)
+#3 [internal function]: App\Controllers\UserController->store()
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('admin/user/stor...')
+#6 {main}
+  thrown in /var/www/html/App/Validators/Auth/SignUpValidator.php on line 17
+[17-Jun-2023 20:10:54 UTC] PHP Warning:  Undefined array key "password_confirm" in /var/www/html/App/Validators/Auth/SignUpValidator.php on line 31
+[17-Jun-2023 20:10:54 UTC] PHP Fatal error:  Uncaught TypeError: App\Validators\Auth\SignUpValidator::passwordConfirmation(): Argument #2 ($passConfirm) must be of type string, null given, called in /var/www/html/App/Validators/Auth/SignUpValidator.php on line 31 and defined in /var/www/html/App/Validators/Auth/SignUpValidator.php:17
+Stack trace:
+#0 /var/www/html/App/Validators/Auth/SignUpValidator.php(31): App\Validators\Auth\SignUpValidator->passwordConfirmation('qaZxc1205++1', NULL)
+#1 /var/www/html/App/Validators/UserValidator.php(10): App\Validators\Auth\SignUpValidator->validate(Array)
+#2 /var/www/html/App/Controllers/UserController.php(47): App\Validators\UserValidator->validate(Array)
+#3 [internal function]: App\Controllers\UserController->store()
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('admin/user/stor...')
+#6 {main}
+  thrown in /var/www/html/App/Validators/Auth/SignUpValidator.php on line 17
+[17-Jun-2023 20:37:55 UTC] PHP Warning:  Undefined variable $user in /var/www/html/App/Views/admin/users/edit.php on line 18
+[17-Jun-2023 20:37:55 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/App/Views/admin/users/edit.php on line 18
+[17-Jun-2023 20:37:55 UTC] PHP Warning:  Undefined variable $user in /var/www/html/App/Views/admin/users/edit.php on line 19
+[17-Jun-2023 20:37:55 UTC] PHP Warning:  Attempt to read property "id" on null in /var/www/html/App/Views/admin/users/edit.php on line 19
+[17-Jun-2023 20:37:55 UTC] PHP Warning:  Undefined variable $user in /var/www/html/App/Views/admin/users/edit.php on line 45
+[17-Jun-2023 20:37:55 UTC] PHP Warning:  Attempt to read property "is_admin" on null in /var/www/html/App/Views/admin/users/edit.php on line 45
+[17-Jun-2023 20:37:55 UTC] PHP Warning:  Undefined variable $user in /var/www/html/App/Views/admin/users/edit.php on line 47
+[17-Jun-2023 20:37:55 UTC] PHP Warning:  Attempt to read property "is_admin" on null in /var/www/html/App/Views/admin/users/edit.php on line 47
+[17-Jun-2023 20:47:53 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function env() in /var/www/html/App/Views/admin/blocks/navigation.php:60
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('admin/blocks/na...', Array)
+#2 /var/www/html/App/Views/admin/blocks/header.php(746): view('admin/blocks/na...')
+#3 /var/www/html/Core/View.php(17): require('/var/www/html/A...')
+#4 /var/www/html/Core/helpers.php(13): Core\View::render('admin/blocks/he...', Array)
+#5 /var/www/html/App/Views/admin/categories/index.php(8): view('admin/blocks/he...')
+#6 /var/www/html/Core/View.php(17): require('/var/www/html/A...')
+#7 /var/www/html/Core/helpers.php(13): Core\View::render('admin/categorie...', Array)
+#8 /var/www/html/App/Controllers/CategoryController.php(26): view('admin/categorie...', Array)
+#9 [internal function]: App\Controllers\CategoryController->index()
+#10 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#11 /var/www/html/public/index.php(16): Core\Router::dispatch('admin/categorie...')
+#12 {main}
+  thrown in /var/www/html/App/Views/admin/blocks/navigation.php on line 60
+[18-Jun-2023 12:22:37 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'curl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/curl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[18-Jun-2023 12:22:37 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'fileinfo' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/fileinfo.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[18-Jun-2023 12:22:37 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'mbstring' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/mbstring.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[18-Jun-2023 12:22:37 UTC] PHP Warning:  PHP Startup: Unable to load dynamic library 'openssl' (tried: /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl: cannot open shared object file: No such file or directory), /usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so (/usr/local/lib/php/extensions/no-debug-non-zts-20210902/openssl.so: cannot open shared object file: No such file or directory)) in Unknown on line 0
+[18-Jun-2023 13:37:47 UTC] PHP Warning:  Undefined array key "S" in /var/www/html/Core/Router.php on line 150
+[18-Jun-2023 13:37:47 UTC] PHP Deprecated:  settype(): Passing null to parameter #2 ($type) of type string is deprecated in /var/www/html/Core/Router.php on line 150
+[18-Jun-2023 13:37:47 UTC] PHP Fatal error:  Uncaught ValueError: settype(): Argument #2 ($type) must be a valid type in /var/www/html/Core/Router.php:150
+Stack trace:
+#0 /var/www/html/Core/Router.php(150): settype('motorola-ryzer-...', '')
+#1 /var/www/html/Core/Router.php(131): Core\Router::setParams('/^shop\\/product...', Array, Array)
+#2 /var/www/html/Core/Router.php(47): Core\Router::match('shop/product/mo...')
+#3 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/mo...')
+#4 {main}
+  thrown in /var/www/html/Core/Router.php on line 150
+[18-Jun-2023 13:40:38 UTC] PHP Warning:  preg_match(): Compilation failed: quantifier does not follow a repeatable item at offset 27 in /var/www/html/Core/Router.php on line 130
+[18-Jun-2023 13:40:38 UTC] PHP Warning:  preg_match(): Compilation failed: quantifier does not follow a repeatable item at offset 27 in /var/www/html/Core/Router.php on line 130
+[18-Jun-2023 13:44:11 UTC] PHP Warning:  preg_match(): Compilation failed: quantifier does not follow a repeatable item at offset 27 in /var/www/html/Core/Router.php on line 130
+[18-Jun-2023 13:44:11 UTC] PHP Warning:  preg_match(): Compilation failed: quantifier does not follow a repeatable item at offset 27 in /var/www/html/Core/Router.php on line 130
+[18-Jun-2023 13:44:38 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /var/www/html/public/index.php on line 10
+[18-Jun-2023 13:44:38 UTC] PHP Warning:  preg_match(): Compilation failed: quantifier does not follow a repeatable item at offset 27 in /var/www/html/Core/Router.php on line 133
+[18-Jun-2023 13:44:39 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /var/www/html/public/index.php on line 10
+[18-Jun-2023 13:44:39 UTC] PHP Warning:  preg_match(): Compilation failed: quantifier does not follow a repeatable item at offset 27 in /var/www/html/Core/Router.php on line 133
+[18-Jun-2023 13:49:45 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /var/www/html/public/index.php on line 10
+[18-Jun-2023 13:49:46 UTC] PHP Warning:  preg_match(): Compilation failed: quantifier does not follow a repeatable item at offset 27 in /var/www/html/Core/Router.php on line 133
+[18-Jun-2023 13:49:46 UTC] PHP Warning:  session_start(): Session cannot be started after headers have already been sent in /var/www/html/public/index.php on line 10
+[18-Jun-2023 13:49:46 UTC] PHP Warning:  preg_match(): Compilation failed: quantifier does not follow a repeatable item at offset 27 in /var/www/html/Core/Router.php on line 133
+[18-Jun-2023 13:50:27 UTC] PHP Warning:  preg_match(): Compilation failed: quantifier does not follow a repeatable item at offset 27 in /var/www/html/Core/Router.php on line 130
+[18-Jun-2023 13:50:28 UTC] PHP Warning:  preg_match(): Compilation failed: quantifier does not follow a repeatable item at offset 27 in /var/www/html/Core/Router.php on line 130
+[18-Jun-2023 13:50:41 UTC] PHP Warning:  preg_match(): Compilation failed: quantifier does not follow a repeatable item at offset 27 in /var/www/html/Core/Router.php on line 130
+[18-Jun-2023 13:50:41 UTC] PHP Warning:  preg_match(): Compilation failed: quantifier does not follow a repeatable item at offset 27 in /var/www/html/Core/Router.php on line 130
+[18-Jun-2023 13:51:25 UTC] PHP Warning:  Undefined array key "S" in /var/www/html/Core/Router.php on line 151
+[18-Jun-2023 13:51:25 UTC] PHP Deprecated:  settype(): Passing null to parameter #2 ($type) of type string is deprecated in /var/www/html/Core/Router.php on line 151
+[18-Jun-2023 13:51:25 UTC] PHP Fatal error:  Uncaught ValueError: settype(): Argument #2 ($type) must be a valid type in /var/www/html/Core/Router.php:151
+Stack trace:
+#0 /var/www/html/Core/Router.php(151): settype('motorola-ryzer-...', '')
+#1 /var/www/html/Core/Router.php(131): Core\Router::setParams('/^shop\\/product...', Array, Array)
+#2 /var/www/html/Core/Router.php(47): Core\Router::match('shop/product/mo...')
+#3 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/mo...')
+#4 {main}
+  thrown in /var/www/html/Core/Router.php on line 151
+[18-Jun-2023 13:52:57 UTC] PHP Warning:  Undefined array key "S" in /var/www/html/Core/Router.php on line 151
+[18-Jun-2023 13:52:57 UTC] PHP Deprecated:  settype(): Passing null to parameter #2 ($type) of type string is deprecated in /var/www/html/Core/Router.php on line 151
+[18-Jun-2023 13:52:57 UTC] PHP Fatal error:  Uncaught ValueError: settype(): Argument #2 ($type) must be a valid type in /var/www/html/Core/Router.php:151
+Stack trace:
+#0 /var/www/html/Core/Router.php(151): settype('motorola-ryzer-...', '')
+#1 /var/www/html/Core/Router.php(131): Core\Router::setParams('/^shop\\/product...', Array, Array)
+#2 /var/www/html/Core/Router.php(47): Core\Router::match('shop/product/mo...')
+#3 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/mo...')
+#4 {main}
+  thrown in /var/www/html/Core/Router.php on line 151
+[18-Jun-2023 14:21:55 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 14:21:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(18): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 14:23:05 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 14:23:05 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(18): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 14:23:32 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 14:23:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(18): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 14:23:43 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 14:23:43 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(18): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 14:23:50 UTC] PHP Warning:  Undefined array key "S" in /var/www/html/Core/Router.php on line 150
+[18-Jun-2023 14:23:50 UTC] PHP Deprecated:  settype(): Passing null to parameter #2 ($type) of type string is deprecated in /var/www/html/Core/Router.php on line 150
+[18-Jun-2023 14:23:50 UTC] PHP Fatal error:  Uncaught ValueError: settype(): Argument #2 ($type) must be a valid type in /var/www/html/Core/Router.php:150
+Stack trace:
+#0 /var/www/html/Core/Router.php(150): settype('Poco-M5-4-128GB...', '')
+#1 /var/www/html/Core/Router.php(131): Core\Router::setParams('/^shop\\/product...', Array, Array)
+#2 /var/www/html/Core/Router.php(47): Core\Router::match('shop/product/Po...')
+#3 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/Po...')
+#4 {main}
+  thrown in /var/www/html/Core/Router.php on line 150
+[18-Jun-2023 14:23:55 UTC] PHP Warning:  Undefined array key "S" in /var/www/html/Core/Router.php on line 150
+[18-Jun-2023 14:23:55 UTC] PHP Deprecated:  settype(): Passing null to parameter #2 ($type) of type string is deprecated in /var/www/html/Core/Router.php on line 150
+[18-Jun-2023 14:23:55 UTC] PHP Fatal error:  Uncaught ValueError: settype(): Argument #2 ($type) must be a valid type in /var/www/html/Core/Router.php:150
+Stack trace:
+#0 /var/www/html/Core/Router.php(150): settype('Poco-M5-4-128GB...', '')
+#1 /var/www/html/Core/Router.php(131): Core\Router::setParams('/^shop\\/product...', Array, Array)
+#2 /var/www/html/Core/Router.php(47): Core\Router::match('shop/product/Po...')
+#3 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/Po...')
+#4 {main}
+  thrown in /var/www/html/Core/Router.php on line 150
+[18-Jun-2023 14:24:17 UTC] PHP Warning:  Undefined array key "S" in /var/www/html/Core/Router.php on line 150
+[18-Jun-2023 14:24:17 UTC] PHP Deprecated:  settype(): Passing null to parameter #2 ($type) of type string is deprecated in /var/www/html/Core/Router.php on line 150
+[18-Jun-2023 14:24:17 UTC] PHP Fatal error:  Uncaught ValueError: settype(): Argument #2 ($type) must be a valid type in /var/www/html/Core/Router.php:150
+Stack trace:
+#0 /var/www/html/Core/Router.php(150): settype('Poco-M5-4-128GB...', '')
+#1 /var/www/html/Core/Router.php(131): Core\Router::setParams('/^shop\\/product...', Array, Array)
+#2 /var/www/html/Core/Router.php(47): Core\Router::match('shop/product/Po...')
+#3 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/Po...')
+#4 {main}
+  thrown in /var/www/html/Core/Router.php on line 150
+[18-Jun-2023 14:24:36 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 14:24:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(18): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 14:25:16 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 14:25:16 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(18): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 14:27:07 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 14:27:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(18): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 14:29:37 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 14:29:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(18): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 14:30:22 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 14:30:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(18): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 14:31:10 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 14:31:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(18): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 14:31:14 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 14:31:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(18): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 14:31:30 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 14:31:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(18): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 14:31:41 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 14:31:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(18): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 14:32:31 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 14:32:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(18): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 14:32:33 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 14:32:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(18): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('login')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/lo...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 14:32:33 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 14:32:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(18): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 15:44:35 UTC] PHP Warning:  Undefined property: App\Models\User::$admin in /var/www/html/App/Helpers/Session.php on line 17
+[18-Jun-2023 15:44:47 UTC] PHP Warning:  Undefined property: App\Models\User::$admin in /var/www/html/App/Helpers/Session.php on line 17
+[18-Jun-2023 15:45:25 UTC] PHP Warning:  Undefined property: App\Models\User::$admin in /var/www/html/App/Helpers/Session.php on line 17
+[18-Jun-2023 15:46:53 UTC] PHP Warning:  Undefined property: App\Models\User::$admin in /var/www/html/App/Helpers/Session.php on line 17
+[18-Jun-2023 15:46:53 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:171) in /var/www/html/Core/helpers.php on line 37
+[18-Jun-2023 15:56:42 UTC] PHP Fatal error:  Cannot make non static method Core\Model::get() static in class App\Models\User in /var/www/html/App/Models/User.php on line 27
+[18-Jun-2023 15:57:10 UTC] PHP Fatal error:  Cannot make non static method Core\Model::get() static in class App\Models\User in /var/www/html/App/Models/User.php on line 27
+[18-Jun-2023 15:58:07 UTC] PHP Fatal error:  Cannot make non static method Core\Model::get() static in class App\Models\User in /var/www/html/App/Models/User.php on line 27
+[18-Jun-2023 15:58:09 UTC] PHP Fatal error:  Cannot make non static method Core\Model::get() static in class App\Models\User in /var/www/html/App/Models/User.php on line 27
+[18-Jun-2023 15:58:11 UTC] PHP Fatal error:  Cannot make non static method Core\Model::get() static in class App\Models\User in /var/www/html/App/Models/User.php on line 27
+[18-Jun-2023 15:58:25 UTC] PHP Fatal error:  Cannot make non static method Core\Model::get() static in class App\Models\User in /var/www/html/App/Models/User.php on line 27
+[18-Jun-2023 15:59:45 UTC] PHP Fatal error:  Cannot make non static method Core\Model::get() static in class App\Models\User in /var/www/html/App/Models/User.php on line 27
+[18-Jun-2023 16:00:16 UTC] PHP Fatal error:  Cannot make non static method Core\Model::get() static in class App\Models\User in /var/www/html/App/Models/User.php on line 27
+[18-Jun-2023 16:00:43 UTC] PHP Fatal error:  Cannot make non static method Core\Model::get() static in class App\Models\User in /var/www/html/App/Models/User.php on line 27
+[18-Jun-2023 16:01:40 UTC] PHP Fatal error:  Cannot make non static method Core\Model::get() static in class App\Models\User in /var/www/html/App/Models/User.php on line 27
+[18-Jun-2023 16:02:50 UTC] PHP Fatal error:  Cannot make non static method Core\Model::get() static in class App\Models\User in /var/www/html/App/Models/User.php on line 27
+[18-Jun-2023 16:04:22 UTC] PHP Warning:  Cannot modify header information - headers already sent by (output started at /var/www/html/vendor/symfony/var-dumper/Dumper/AbstractDumper.php:171) in /var/www/html/Core/helpers.php on line 37
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:53 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:16:54 UTC] PHP Warning:  Attempt to read property "sum" on array in /var/www/html/App/Models/Order.php on line 74
+[18-Jun-2023 16:40:00 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 16:40:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(19): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 16:40:09 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 16:40:09 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(19): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 16:42:00 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 16:42:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(19): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 17:02:37 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 17:02:37 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(19): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 17:05:48 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 17:05:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(19): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19
+[18-Jun-2023 17:08:14 UTC] PHP Warning:  Attempt to read property "name" on bool in /var/www/html/App/Views/shop/product.php on line 16
+[18-Jun-2023 17:08:14 UTC] PHP Fatal error:  Uncaught Error: Call to a member function category() on bool in /var/www/html/App/Views/shop/product.php:19
+Stack trace:
+#0 /var/www/html/Core/View.php(17): require()
+#1 /var/www/html/Core/helpers.php(13): Core\View::render('shop/product', Array)
+#2 /var/www/html/App/Controllers/ShopController.php(19): view('shop/product', Array)
+#3 [internal function]: App\Controllers\ShopController->show('ufo.png')
+#4 /var/www/html/Core/Router.php(53): call_user_func_array(Array, Array)
+#5 /var/www/html/public/index.php(16): Core\Router::dispatch('shop/product/uf...')
+#6 {main}
+  thrown in /var/www/html/App/Views/shop/product.php on line 19

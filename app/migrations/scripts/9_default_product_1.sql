@@ -1,0 +1,16 @@
+INSERT INTO products(name,
+                     description,
+                     price,
+                     price_sale,
+                     slug,
+                     sku,
+                     image,
+                     category_id)
+VALUES ("Motorola Ryzer One X",
+        "Motorola Ryzer One X - це новітній телефон і ніякий херфон з ним не зрівняється",
+        10000.00,
+        9000.00,
+        "motorola-ryzer-one-x",
+        "m-r-o-x-0df41G",
+        "motorola-ryzer-one-x.jpeg",
+        1);
