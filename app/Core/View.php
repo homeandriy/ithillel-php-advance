@@ -4,7 +4,7 @@ namespace Core;
 
 class View
 {
-    static public function render(string $view, array $args = [])
+    public static function render(string $view, array $args = [])
     {
         $file = VIEW_DIR . $view . '.php';
 
@@ -15,5 +15,12 @@ class View
         extract($args, EXTR_SKIP);
 
         require $file;
+    }
+
+    public static function partRender(string $view, array $args = []): string
+    {
+        ob_start();
+        static::render($view, $args);
+        return ob_get_clean();
     }
 }

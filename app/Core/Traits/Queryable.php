@@ -71,11 +71,12 @@ trait Queryable
      * @param array $fields
      * @return int
      */
-    static public function create(array $fields): int
+    static public function create(array $fields, string $tableName = ''): int
     {
         $params = static::prepareQueryParams($fields);
+        $table = !empty($tableName) ? $tableName : static::$tableName;
 
-        $query = "INSERT INTO " . static::$tableName . " ({$params['keys']}) VALUES ({$params['placeholders']})";
+        $query = "INSERT INTO " . $table . " ({$params['keys']}) VALUES ({$params['placeholders']})";
         $query = Db::connect()->prepare($query);
         $query->execute($fields);
 

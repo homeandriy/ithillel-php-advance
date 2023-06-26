@@ -71,7 +71,7 @@ view('blocks/header');
                                 <div class="product__discount__item">
                                     <div class="product__item__pic set-bg" data-setbg="<?= ASSETS_URI; ?>img/product/product-<?= mt_rand(1,5)?>.jpg">
                                         <ul class="product__item__pic__hover">
-                                            <li><a href="#" class="add-to-cart" data-id="<?= $product->id; ?>"><i class=" fa fa-shopping-cart"></i></a></li>
+                                            <li><a href="#" class="add-to-cart" data-product_id="<?= $product->id; ?>"><i class=" fa fa-shopping-cart"></i></a></li>
                                         </ul>
                                     </div>
                                     <div class="product__discount__item__text">

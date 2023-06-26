@@ -22,8 +22,8 @@ view('blocks/header');
                 <div class="col-lg-9">
                     <div class="hero__search">
                         <div class="hero__search__form">
-                            <form action="#">
-                                <input type="text" placeholder="Пошук в розробці">
+                            <form action="<?= url('shop/search')?>" method="get">
+                                <input type="text" placeholder="Пошук в розробці" name="q">
                                 <button type="submit" class="site-btn">ПОШУК</button>
                             </form>
                         </div>
@@ -68,7 +68,7 @@ view('blocks/header');
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="<?= ASSETS_URI ?>img/featured/feature-<?= mt_rand(1,5)?>.jpg">
                             <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                <li><a href="#" class="add-to-cart" data-product_id="<?= $product->id; ?>"><i class="fa fa-shopping-cart"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">

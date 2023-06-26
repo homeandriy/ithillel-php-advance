@@ -13,6 +13,17 @@ function view(string $view, array $args = [])
     \Core\View::render($view, $args);
 }
 
+function partView(string $view, array $args = []): string
+{
+    return \Core\View::partRender($view, $args);
+}
+
+function jsonResponse(array $args = [])
+{
+    header('Content-Type: application/json; charset=utf-8');
+    echo json_encode($args);
+}
+
 function url(string $path = ''): string
 {
     $path = ltrim($path, '/');
@@ -99,17 +110,17 @@ function orderStatusHelper(string $status): string
     return $badge;
 }
 
-function userStatus(int $status) : string
+function userStatus(int $status): string
 {
     switch ($status) {
         case \App\Models\User::USER_ADMIN:
         {
-            $badge = '<span class="badge bg-primary">'.\App\Models\User::USER_STATUS_LIST[\App\Models\User::USER_ADMIN].'</span>';
+            $badge = '<span class="badge bg-primary">' . \App\Models\User::USER_STATUS_LIST[\App\Models\User::USER_ADMIN] . '</span>';
             break;
         }
         case \App\Models\User::USER_CLIENT:
         {
-            $badge = '<span class="badge bg-success">'.\App\Models\User::USER_STATUS_LIST[\App\Models\User::USER_CLIENT].'</span>';
+            $badge = '<span class="badge bg-success">' . \App\Models\User::USER_STATUS_LIST[\App\Models\User::USER_CLIENT] . '</span>';
             break;
         }
         default :
@@ -120,11 +131,13 @@ function userStatus(int $status) : string
     return $badge;
 }
 
-function displayPrice(\App\Models\Product $product, bool $onlyDalePrice = false) {
-    if($product->price_sale > 0.01 && $product->price_sale < $product->price) {
+function displayPrice(\App\Models\Product $product, bool $onlyDalePrice = false)
+{
+    if ($product->price_sale > 0.01 && $product->price_sale < $product->price) {
         return $onlyDalePrice ?
-            sprintf(' <h5>%s ₴</h5>', $product->price_sale):
-            sprintf('<div class="product__item__price">%s ₴<span>%s ₴</span></div>', $product->price_sale, $product->price);
+            sprintf(' <h5>%s ₴</h5>', $product->price_sale) :
+            sprintf('<div class="product__item__price">%s ₴<span>%s ₴</span></div>', $product->price_sale,
+                $product->price);
     } else {
         return sprintf(' <h5>%s ₴</h5>', $product->price);
     }

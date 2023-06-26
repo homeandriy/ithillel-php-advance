@@ -17,7 +17,6 @@
     $('.logout').on('click', function (e) {
             e.preventDefault();
             e.stopPropagation();
-        console.log('click');
             $.post('/logout', {}, function (response) {
                 console.log(response);
                 if (response.redirect) {
@@ -27,6 +26,119 @@
             });
         }
     );
+
+    function requestCart() {
+        $.post('/shop/cart/ajax', {}, function (response) {
+            console.log()
+            if (response.rendered) {
+                showCart(response.rendered);
+                setSumANDAmount(response.sum, response.amount);
+            }
+        });
+    }
+
+    function setSumANDAmount(sum, amount) {
+        $('.cart-amount').html(amount);
+        $('.cart-sum').html(sum);
+    }
+
+    /**
+     *
+     * @param {String} content
+     * @param {Boolean} onlyUpdate
+     */
+    function showCart(content, onlyUpdate = false) {
+        /**
+         * Ajax not work on cart page. Because need reload page
+         */
+        if(window.location.pathname === '/shop/cart') {
+            window.location.reload();
+        }
+        $('#shopping-cart-content').html(content);
+        if (!onlyUpdate) {
+            $('#shopping-cart').modal('show')
+        }
+    }
+
+    $('#show-ajax-cart').on('click', function (e) {
+        e.preventDefault();
+        requestCart();
+    })
+    $('.add-to-cart').on('click', function (e) {
+        e.preventDefault();
+        $.post(
+            '/shop/cart/add',
+            {
+                product_id: $(this).data('product_id')
+            },
+            function (response) {
+                if (response.rendered) {
+                    setSumANDAmount(response.sum, response.amount);
+                    showCart(response.rendered);
+                }
+            });
+    });
+    $('body').on('click', '.reduce-product', function (e) {
+        $.post(
+            '/shop/cart/reduce',
+            {
+                product_id: $(this).data('product_id')
+            },
+            function (response) {
+                if (response.rendered) {
+                    setSumANDAmount(response.sum, response.amount);
+                    showCart(response.rendered, true);
+                }
+            });
+    });
+    $('body').on('click', '.plus-product', function (e) {
+        $.post(
+            '/shop/cart/add',
+            {
+                product_id: $(this).data('product_id')
+            },
+            function (response) {
+                if (response.rendered) {
+                    setSumANDAmount(response.sum, response.amount);
+                    showCart(response.rendered, true);
+                }
+            });
+    });
+
+    $('body').on('click', '.remove-product', function (e) {
+        $.post(
+            '/shop/cart/remove',
+            {
+                product_id: $(this).data('product_id')
+            },
+            function (response) {
+                if (response.rendered) {
+                    setSumANDAmount(response.sum, response.amount);
+                    showCart(response.rendered, true);
+                }
+            });
+    });
+    /*-------------------
+       Quantity change
+   --------------------- */
+    // var proQty = $('.pro-qty');
+    // proQty.prepend('<span class="dec qtybtn">-</span>');
+    // proQty.append('<span class="inc qtybtn">+</span>');
+    // proQty.on('click', '.qtybtn', function () {
+    //     var $button = $(this);
+    //     var oldValue = $button.parent().find('input').val();
+    //     if ($button.hasClass('inc')) {
+    //         var newVal = parseFloat(oldValue) + 1;
+    //     } else {
+    //         // Don't allow decrementing below zero
+    //         if (oldValue > 0) {
+    //             var newVal = parseFloat(oldValue) - 1;
+    //         } else {
+    //             newVal = 0;
+    //         }
+    //     }
+    //     $button.parent().find('input').val(newVal);
+    // });
     /*------------------
         Preloader
     --------------------*/
@@ -214,27 +326,4 @@
             });
         }
     });
-
-    /*-------------------
-		Quantity change
-	--------------------- */
-    var proQty = $('.pro-qty');
-    proQty.prepend('<span class="dec qtybtn">-</span>');
-    proQty.append('<span class="inc qtybtn">+</span>');
-    proQty.on('click', '.qtybtn', function () {
-        var $button = $(this);
-        var oldValue = $button.parent().find('input').val();
-        if ($button.hasClass('inc')) {
-            var newVal = parseFloat(oldValue) + 1;
-        } else {
-            // Don't allow decrementing below zero
-            if (oldValue > 0) {
-                var newVal = parseFloat(oldValue) - 1;
-            } else {
-                newVal = 0;
-            }
-        }
-        $button.parent().find('input').val(newVal);
-    });
-
 })(jQuery);

@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" type="image/x-icon" href="ufo.png">
+    <link rel="icon" type="image/x-icon" href="<?=url('/'); ?>ufo.png">
     <title><?= $pageTitle ?? 'Our Site' ?></title>
     <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@200;300;400;600;900&display=swap" rel="stylesheet">
 
@@ -103,9 +103,9 @@
             <div class="col-lg-3">
                 <div class="header__cart">
                     <ul>
-                        <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                        <li><a href="/cart" id="show-ajax-cart"><i class="fa fa-shopping-bag"></i> <span class="cart-amount"><?= \App\Services\CartService::amount()?></span></a></li>
                     </ul>
-                    <div class="header__cart__price">Вартість: <span>150.00 ₴</span></div>
+                    <div class="header__cart__price">Вартість: <span class="cart-sum"><?= \App\Services\CartService::sum()?></span> ₴</div>
                 </div>
             </div>
         </div>

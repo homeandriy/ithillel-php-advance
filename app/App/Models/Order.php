@@ -25,12 +25,19 @@ class Order extends Model
     public int $user_id;
     public float $sum;
 
-    public function addProduct(Product $product, int $amount)
+    /**
+     * @param Product $product
+     * @param int $amount
+     *
+     * @return void
+     */
+    public function addProduct(Product $product, int $amount) : void
     {
         $this::create(
             [
                 'order_id' => $this->id,
-                'product_id' => $product->id
+                'product_id' => $product->id,
+                'amount' => $amount
             ],
             'orders_prods'
         );

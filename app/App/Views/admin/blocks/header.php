@@ -760,17 +760,20 @@
 
                 <div class="navbar-nav-right d-flex align-items-center" id="navbar-collapse">
                     <!-- Search -->
-                    <div class="navbar-nav align-items-center">
-                        <div class="nav-item d-flex align-items-center">
-                            <i class="bx bx-search fs-4 lh-0"></i>
-                            <input
-                                    type="text"
-                                    class="form-control border-0 shadow-none"
-                                    placeholder="Пошук (в розробці)..."
-                                    aria-label="Пошук (в розробці)..."
-                            />
+                    <form action="<?= url('shop/search')?>" method="get">
+                        <div class="navbar-nav align-items-center">
+                            <div class="nav-item d-flex align-items-center">
+                                <i class="bx bx-search fs-4 lh-0"></i>
+                                <input
+                                        type="text"
+                                        name="q"
+                                        class="form-control border-0 shadow-none"
+                                        placeholder="Пошук (в розробці)..."
+                                        aria-label="Пошук (в розробці)..."
+                                />
+                            </div>
                         </div>
-                    </div>
+                    </form>
                     <!-- /Search -->
 
                     <ul class="navbar-nav flex-row align-items-center ms-auto">
